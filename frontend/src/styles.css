@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+}
+
+.navbar {
+  background-color: #0f172a;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  width: 700px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.select-box,
+.file-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.upload-btn,
+.action-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-btn:hover,
+.action-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.dashboard-card {
+  background: #eff6ff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.dashboard-card h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #2563eb;
+}
+
+.dashboard-card p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.review-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.review-table th {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+.review-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.approve-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin-right: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}

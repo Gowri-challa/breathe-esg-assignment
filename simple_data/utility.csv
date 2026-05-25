@@ -1,0 +1,4 @@
+meter_id,billing_period,kwh
+MTR01,2026-05,1200
+MTR02,2026-05,950
+MTR03,2026-05,50000

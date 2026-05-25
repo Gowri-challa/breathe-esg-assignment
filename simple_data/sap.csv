@@ -1,0 +1,4 @@
+plant_code,fuel_type,quantity,unit
+PL101,Diesel,500,liters
+PL102,Petrol,300,liters
+PL103,Diesel,-100,liters
